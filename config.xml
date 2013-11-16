@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.undertile.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Undertile</name>
+<widget id="com.bhorapp.faros" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>libroFaros</name>
     <description>
-        Undertile.
+        libro de faros de españa.
     </description>
     <author email="xavierbhor@gmail.com" href="http://bhorapps.blogspot.com.es/">
-        Undertile
+        Xavier Bhor
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
     <preference name="permissions" value="none" />
