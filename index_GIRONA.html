@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title></title>
+  
+  <link rel="stylesheet" href="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
+  
+  <!-- jQuery and jQuery Mobile -->
+  <script src="https://d10ajoocuyu32n.cloudfront.net/jquery-1.9.1.min.js"></script>
+  <script src="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+
+<script>
+	$(function () {
+		$('a.back').click(function(){
+		    alert("back");
+			parent.history.back();
+		    return false;
+		});
+	});
+</script>
+   
+</head>
+<body>
+
+<div data-role="page" id="page2">
+
+<div data-role="header"  data-add-back-btn="true" data-back-btn-text="Atras">
+        <h1>GIRONA</h1>
+</div>
+
+    <div data-role="content">
+        <ul data-role="listview" data-divider-theme="b" data-inset="true">
+<li><a href='detall_E_0453.html'>CABO TOSSA</a></li><li><a href='detall_E_0462.html'>FARO PUNTA DEL MOLINO</a></li><li><a href='detall_E_0467.html'>FORMIGA GRAN E-058</a></li><li><a href='detall_E_0470.html'>CABO SAN SEBASTIAN</a></li><li><a href='detall_E_0472.html'>ISLAS MEDAS E-001</a></li><li><a href='detall_E_0476.html'>FARO PUNTA LA BATERIA O BLANCALS</a></li><li><a href='detall_E_0484.html'>DE CALA NANS</a></li><li><a href='detall_E_0486.html'>CABO CREUS</a></li><li><a href='detall_E_0488.html'>PUNTA S'ARNELLA</a></li>
+        </ul>
+    </div>
+    
+    <a href="index.html" data-role="button" data-icon="back" data-theme="e">Volver</a>
+</div>
+
+</body>
+</html>

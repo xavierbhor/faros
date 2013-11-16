@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title></title>
+  
+  <link rel="stylesheet" href="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
+  
+  <!-- jQuery and jQuery Mobile -->
+  <script src="https://d10ajoocuyu32n.cloudfront.net/jquery-1.9.1.min.js"></script>
+  <script src="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+
+<script>
+	$(function () {
+		$('a.back').click(function(){
+		    alert("back");
+			parent.history.back();
+		    return false;
+		});
+	});
+</script>
+   
+</head>
+<body>
+
+<div data-role="page" id="page2">
+
+<div data-role="header"  data-add-back-btn="true" data-back-btn-text="Atras">
+        <h1>CEUTA</h1>
+</div>
+
+    <div data-role="content">
+        <ul data-role="listview" data-divider-theme="b" data-inset="true">
+<li><a href='detall_D_2482.html'>PUNTA ALMINA</a></li><li><a href='detall_D_2484.html'>DIQUE DE LEVANTE EXTR.</a></li><li><a href='detall_D_2486.html'>EXTREMO DEL DIQUE DE PONIENTE</a></li>
+        </ul>
+    </div>
+    
+    <a href="index.html" data-role="button" data-icon="back" data-theme="e">Volver</a>
+</div>
+
+</body>
+</html>

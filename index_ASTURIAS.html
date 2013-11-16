@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title></title>
+  
+  <link rel="stylesheet" href="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
+  
+  <!-- jQuery and jQuery Mobile -->
+  <script src="https://d10ajoocuyu32n.cloudfront.net/jquery-1.9.1.min.js"></script>
+  <script src="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+
+<script>
+	$(function () {
+		$('a.back').click(function(){
+		    alert("back");
+			parent.history.back();
+		    return false;
+		});
+	});
+</script>
+   
+</head>
+<body>
+
+<div data-role="page" id="page2">
+
+<div data-role="header"  data-add-back-btn="true" data-back-btn-text="Atras">
+        <h1>ASTURIAS</h1>
+</div>
+
+    <div data-role="content">
+        <ul data-role="listview" data-divider-theme="b" data-inset="true">
+<li><a href='detall_D_1580.html'>PUNTA DE SAN EMETERIO</a></li><li><a href='detall_D_1582.html'>PUNTA DE SAN ANTON</a></li><li><a href='detall_D_1586.html'>SOMOS</a></li><li><a href='detall_D_1589.html'>EXTREMO DIQUE DE LASTRES</a></li><li><a href='detall_D_1592.html'>FARO DE TAZONES</a></li><li><a href='detall_D_1596.html'>CABO DE TORRES</a></li><li><a href='detall_D_1614.html'>FARO DE CANDAS</a></li><li><a href='detall_D_1628.html'>CABO PEÑAS</a></li><li><a href='detall_D_1630.html'>FARO DE AVILES</a></li><li><a href='detall_D_1634.html'>ANGULO DE DIQUE DEL OESTE</a></li><li><a href='detall_D_1640.html'>PUNTA REBOLLERA</a></li><li><a href='detall_D_1641.html'>CABO VIDIO</a></li><li><a href='detall_D_1642.html'>CABO BUSTO</a></li><li><a href='detall_D_1646.html'>PUNTA ATALAYA O BLANCA</a></li><li><a href='detall_D_1652.html'>PUNTA LAMA</a></li><li><a href='detall_D_1657.html'>CABO SAN AGUSTIN</a></li><li><a href='detall_D_1658.html'>ISLA TAPIA N-069</a></li>
+        </ul>
+    </div>
+    
+    <a href="index.html" data-role="button" data-icon="back" data-theme="e">Volver</a>
+</div>
+
+</body>
+</html>

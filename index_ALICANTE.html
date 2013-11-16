@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title></title>
+  
+  <link rel="stylesheet" href="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
+  
+  <!-- jQuery and jQuery Mobile -->
+  <script src="https://d10ajoocuyu32n.cloudfront.net/jquery-1.9.1.min.js"></script>
+  <script src="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+
+<script>
+	$(function () {
+		$('a.back').click(function(){
+		    alert("back");
+			parent.history.back();
+		    return false;
+		});
+	});
+</script>
+   
+</head>
+<body>
+
+<div data-role="page" id="page2">
+
+<div data-role="header"  data-add-back-btn="true" data-back-btn-text="Atras">
+        <h1>ALICANTE</h1>
+</div>
+
+    <div data-role="content">
+        <ul data-role="listview" data-divider-theme="b" data-inset="true">
+<li><a href='detall_E_0146.html'>EXTREMO DEL DIQUE LEVANTE</a></li><li><a href='detall_E_0148.html'>ISLA TABARCA FARO E-006</a></li><li><a href='detall_E_0152.html'>CABO SANTA POLA. TORRE TALAYOLA</a></li><li><a href='detall_E_0158.html'>DIQUE DE ABRIGO DE LEVANTE EXTR.</a></li><li><a href='detall_E_0166.html'>CABO DE LA HUERTA</a></li><li><a href='detall_E_0172.html'>ISLOTE DE BENIDORM FARO E-007</a></li><li><a href='detall_E_0173.html'>PUNTA DEL ALBIR (E:0173.6)</a></li><li><a href='detall_E_0176.html'>CABO DE LA NAO</a></li><li><a href='detall_E_0180.html'>CABO DE SAN ANTONIO</a></li>
+        </ul>
+    </div>
+    
+    <a href="index.html" data-role="button" data-icon="back" data-theme="e">Volver</a>
+</div>
+
+</body>
+</html>

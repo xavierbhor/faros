@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title></title>
+  
+  <link rel="stylesheet" href="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
+  
+  <!-- jQuery and jQuery Mobile -->
+  <script src="https://d10ajoocuyu32n.cloudfront.net/jquery-1.9.1.min.js"></script>
+  <script src="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+
+<script>
+	$(function () {
+		$('a.back').click(function(){
+		    alert("back");
+			parent.history.back();
+		    return false;
+		});
+	});
+</script>
+   
+</head>
+<body>
+
+<div data-role="page" id="page2">
+
+<div data-role="header"  data-add-back-btn="true" data-back-btn-text="Atras">
+        <h1>CANTABRIA</h1>
+</div>
+
+    <div data-role="content">
+        <ul data-role="listview" data-divider-theme="b" data-inset="true">
+<li><a href='detall_D_1536.html'>CASTILLO DE SANTA ANA</a></li><li><a href='detall_D_1537.html'>EXTREMO ROMPEOLAS NORTE</a></li><li><a href='detall_D_1542.html'>PUNTA EL PESCADOR</a></li><li><a href='detall_D_1544.html'>PUNTA EL CABALLO</a></li><li><a href='detall_D_1546.html'>PUENTE ARGOÑOS (D:1546.1)</a></li><li><a href='detall_D_1552.html'>CABO DE AJO</a></li><li><a href='detall_D_1554.html'>ISLA DE MOURO N-016</a></li><li><a href='detall_D_1556.html'>LA CERDA</a></li><li><a href='detall_D_1557.html'>ISLA HORADADA N-039</a></li><li><a href='detall_D_1560.html'>CABO MAYOR</a></li><li><a href='detall_D_1562.html'>PUNTA TORCO DE AFUERA</a></li><li><a href='detall_D_1574.html'>PUNTA SILLA</a></li>
+        </ul>
+    </div>
+    
+    <a href="index.html" data-role="button" data-icon="back" data-theme="e">Volver</a>
+</div>
+
+</body>
+</html>

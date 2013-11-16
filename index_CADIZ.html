@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title></title>
+  
+  <link rel="stylesheet" href="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
+  
+  <!-- jQuery and jQuery Mobile -->
+  <script src="https://d10ajoocuyu32n.cloudfront.net/jquery-1.9.1.min.js"></script>
+  <script src="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+
+<script>
+	$(function () {
+		$('a.back').click(function(){
+		    alert("back");
+			parent.history.back();
+		    return false;
+		});
+	});
+</script>
+   
+</head>
+<body>
+
+<div data-role="page" id="page2">
+
+<div data-role="header"  data-add-back-btn="true" data-back-btn-text="Atras">
+        <h1>CADIZ</h1>
+</div>
+
+    <div data-role="content">
+        <ul data-role="listview" data-divider-theme="b" data-inset="true">
+<li><a href='detall_BR_123.html'>PUERTO SHERRY</a></li><li><a href='detall_BR_124.html'>PUNTA CARBONERA</a></li><li><a href='detall_D_2346.html'>DE BONANZA</a></li><li><a href='detall_D_2351.html'>PUNTA DEL PERRO</a></li><li><a href='detall_D_2355.html'>FARO DE ROTA (D:2355.2)</a></li><li><a href='detall_D_2362.html'>CASTILLO DE SAN SEBASTIAN S-234</a></li><li><a href='detall_D_2388.html'>CASTILLO DE SANCTI PETRI S-002</a></li><li><a href='detall_D_2405.html'>CABO ROCHE</a></li><li><a href='detall_D_2406.html'>CABO TRAFALGAR</a></li><li><a href='detall_D_2408.html'>FARO DE BARBATE</a></li><li><a href='detall_D_2412.html'>PUNTA PALOMA</a></li><li><a href='detall_D_2414.html'>ISLA DE TARIFA S-030</a></li><li><a href='detall_D_2420.html'>PUNTA CARNERO S-027</a></li><li><a href='detall_D_2424.html'>DIQUE N. EXTR.</a></li>
+        </ul>
+    </div>
+    
+    <a href="index.html" data-role="button" data-icon="back" data-theme="e">Volver</a>
+</div>
+
+</body>
+</html>

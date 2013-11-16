@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title></title>
+  
+  <link rel="stylesheet" href="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
+  
+  <!-- jQuery and jQuery Mobile -->
+  <script src="https://d10ajoocuyu32n.cloudfront.net/jquery-1.9.1.min.js"></script>
+  <script src="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+
+<script>
+	$(function () {
+		$('a.back').click(function(){
+		    alert("back");
+			parent.history.back();
+		    return false;
+		});
+	});
+</script>
+   
+</head>
+<body>
+
+<div data-role="page" id="page2">
+
+<div data-role="header"  data-add-back-btn="true" data-back-btn-text="Atras">
+        <h1>A CORUÑA</h1>
+</div>
+
+    <div data-role="content">
+        <ul data-role="listview" data-divider-theme="b" data-inset="true">
+<li><a href='detall_BR_87.html'>PUNTA FROUXEIRA</a></li><li><a href='detall_BR_88.html'>PUNTA NARIGA</a></li><li><a href='detall_BR_89.html'>PUNTA RONCUDO</a></li><li><a href='detall_D_1686.html'>CABO ORTEGAL (D:1686.3)</a></li><li><a href='detall_D_1686.html'>PUNTA ESTACA DE BARES</a></li><li><a href='detall_D_1687.html'>PUNTA CANDELARIA</a></li><li><a href='detall_D_1688.html'>PUNTA PROMONTORIO</a></li><li><a href='detall_D_1692.html'>CABO PRIOR</a></li><li><a href='detall_D_1694.html'>CABO PRIORIÑO CHICO</a></li><li><a href='detall_D_1697.html'>CASTILLO DE LA PALMA</a></li><li><a href='detall_D_1701.html'>ESCOLLO PULGUEIRA</a></li><li><a href='detall_D_1704.html'>TORRE DE HERCULES</a></li><li><a href='detall_D_1706.html'>PUNTA MERA</a></li><li><a href='detall_D_1716.html'>CASTILLO DE SAN ANTON O-233</a></li><li><a href='detall_D_1728.html'>ISLAS SISARGAS O-137</a></li><li><a href='detall_D_1730.html'>PUNTA DEL RONCUDO</a></li><li><a href='detall_D_1732.html'>PUNTA LAGE</a></li><li><a href='detall_D_1736.html'>CABO VILLANO</a></li><li><a href='detall_D_1737.html'>PUNTA DE LA BARCA</a></li><li><a href='detall_D_1740.html'>CABO TORIÑANA</a></li><li><a href='detall_D_1742.html'>CABO FINISTERRE</a></li><li><a href='detall_D_1756.html'>LOBEIRA GRANDE O-252</a></li><li><a href='detall_D_1760.html'>CABO CEE</a></li><li><a href='detall_D_1782.html'>PUNTA INSUA</a></li><li><a href='detall_D_1784.html'>MONTE LOURO</a></li><li><a href='detall_D_1786.html'>CABO REBURDIÑO</a></li><li><a href='detall_D_1794.html'>CABO CORRUBEDO</a></li><li><a href='detall_D_1796.html'>ISLA SALVORA O-121</a></li>
+        </ul>
+    </div>
+    
+    <a href="index.html" data-role="button" data-icon="back" data-theme="e">Volver</a>
+</div>
+
+</body>
+</html>
